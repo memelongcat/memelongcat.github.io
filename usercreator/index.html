@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <h1>REMOVE FROM PROD</h1>
+    </head>
+    
+    <body>
+        <form action="form.php" method="post">
+        <div>
+            <label for="username">username</label>
+            <input name="username" id="username">
+        </div>
+        <div>
+            <label for="passwd">passwd</label>
+            <input name="passwd" id="passwd">
+        </div>
+        <div>
+           <!--
+            <label for="acess_level">acess_level</label>
+            <input name="acess_level" id="acess_level">
+            -->
+            <input type="radio" name="acess_level" value="slave"/>Slave<br/>
+            <input type="radio" name="acess_level" value="master"/>Master<br/>
+        </div>
+        <div>
+            <button>Confirm</button>
+        </div>
+    </form>
+    </body>
+</html>
