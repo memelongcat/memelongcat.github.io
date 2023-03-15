@@ -5,7 +5,7 @@
 */
 header('Content-Type: text/html; charset=utf-8'); // на всякий случай досообщим PHP, что все в кодировке UTF-8
 
-$site_dir = dirname(dirname(__FILE__)).'/'; // корень сайта
+$site_dir = dirname(dirname(__FILE__)).'/bot'; // корень сайта
 $bot_token = '6189939669:AAEm5yWqfvBTJ0huZfadJvvvp3dh3FiOQ6Q'; // токен вашего бота
 $data = file_get_contents('php://input'); // весь ввод перенаправляем в $data
 $data = json_decode($data, true); // декодируем json-закодированные-текстовые данные в PHP-массив
